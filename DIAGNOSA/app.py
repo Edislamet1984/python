@@ -67,8 +67,8 @@ st.set_page_config(
     page_icon="📚"
 )
 
-st.title("📚 Chatbot Ahli Sejarah")
-st.markdown("Saya adalah ahli sejarah! Berikan tanggal (DD/MM) dan saya akan ceritakan 2 kejadian menarik di tanggal tersebut.")
+st.title("📚 Chatbot Ahli ANALISA GEMMPA")
+st.markdown("Saya adalah ahli ANALISA GEMPA!.")
 
 # Inisialisasi model Gemini (ini akan dijalankan sekali berkat @st.cache_resource)
 gemini_model = initialize_gemini_model()
